@@ -35,11 +35,11 @@ This is a simple React application that fetches and displays drink counts from a
 1. Create a `.env` file in the root of the project.
 2. Add the following environment variable:
    ```plaintext
-   REACT_APP_API_URL=<your_api_url>
+   REACT_APP_BASE_URL=<your_api_url>
    ```
    Replace `<your_api_url>` with the actual API endpoint. For example:
    ```plaintext
-   REACT_APP_API_URL=https://914ade287b6d.ngrok.app/latest-entry
+   REACT_APP_BASE_URL=https://914ade287b6d.ngrok.app
    ```
 
 ## Running the Application
